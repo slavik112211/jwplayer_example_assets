@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <div id="player"></div>
+    
+    <script type="text/javascript" src="/jwplayer/jwplayer.js" ></script>
+    
+    <script type="text/javascript">
+        jwplayer("player").setup({
+            width: "800px",
+            aspectratio: "16:9",
+            image: "http://content.bitsontherun.com/thumbs/q1fx20VZ-480.jpg",
+            file: "http://content.bitsontherun.com/videos/q1fx20VZ-kNspJqnJ.mp4",
+            tracks: [
+                { file: "assets/thumbs.vtt", kind: "thumbnails" }
+            ]
+        });
+    </script>
+</body>
+</html>
